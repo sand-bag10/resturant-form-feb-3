@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>Document title</title>
+<meta charset='utf-8'>
+<meta name='description' content='Description of document content'>
+</head>
+
+<body>
+
+<header role='banner'>
+  <h1>Restaurant Name</h1>
+  <nav>
+    <ol role='navigation'>
+      <li>
+        <a href="#Menu">Menu</a>
+      </li>
+      <li>
+        <a href="#Order Form">Order Form</a>
+      </li>
+      <li>
+        <a href="./contact.html">Contact</a>
+      </li>
+      <li>
+        <a href="./about.html">About</a>
+      </li>
+    </ol>
+    <form role='search'>
+      <input type='search' placeholder='Enter search term here...'>
+      <input type='submit' value='search'>
+    </form>
+  </nav>
+</header>
+
+<main role='main'>
+ <div id="Menu">
+  <h2>Menu</h2>
+   <ul>
+   <li>Wings <span class="price">$10</span> <img src="https://preppykitchen.com/wp-content/uploads/2022/09/Chicken-Wings-Recipe-Card.jpg" alt="Wing Image" width="50" height="50"></li>
+
+    <li>Burger <span class="price">$13</span> <img src="https://www.allrecipes.com/thmb/5JVfA7MxfTUPfRerQMdF-nGKsLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg" alt="Burger Image" width="50" height="50"></li>
+     <li>Pizza <span class="price">$15</span> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg" alt="Pizza Image" width="50" height="50"></li>
+  </p>
+</div>
+  
+<!-- Add your restaurant order form below -->
+  <form role='order_form'>
+    <input type='search' placeholder='Put Order Form Here'>
+    <input type='submit' value='order'>
+  </form>
+ <div id=form>
+   <h2> Order Form</h2>
+  <form role='order_form'>
+    <label for="name">First & Last Name:</label><br>
+      <input type="text" name="name" required><br>
+    <label for="number">Phone Number:</label><br>
+      <input type="text" name="number"><br>
+    <label for="email">Email:</label><br>
+      <input type="text" name="email"><br>
+    <label for="address">Address:</label><br>
+      <input type="text" placeholder="Street Name" name="address">
+      <input type="text" placeholder='City'>
+      <select name=”State” id=”state” size=”1″>
+<option value=”AL” id=”AL”>Alabama</option>
+<option value=”AK” id=”AK”>Alaska</option>
+<option value=”AZ” id=”AZ”>Arizona</option>
+<option value=”AR” id=”AR”>Arkansas</option>
+<option value=”CA” id=”CA”>California</option>
+<option value=”CO” id=”CO”>Colorado</option>
+<option value=”CT” id=”CT”>Connecticut</option>
+<option value=”DE” id=”DE”>Delaware</option>
+<option value=”DC” id=”DC”>Dist of Columbia</option>
+<option value=”FL” id=”FL”>Florida</option>
+<option value=”GA” id=”GA”>Georgia</option>
+<option value=”HI” id=”HI”>Hawaii</option>
+<option value=”ID” id=”ID”>Idaho</option>
+<option value=”IL” id=”IL”>Illinois</option>
+<option value=”IN” id=”IN”>Indiana</option>
+<option value=”IA” id=”LA”>Iowa</option>
+<option value=”KS” id=”KS”>Kansas</option>
+<option value=”KY” id=”KY”>Kentucky</option>
+<option value=”LA” id=”LA”>Louisiana</option>
+<option value=”ME” id=”ME”>Maine</option>
+<option value=”MD” id=”MD”>Maryland</option>
+<option value=”MA” id=”MA”>Massachusetts</option>
+<option value=”MI” id=”MI”>Michigan</option>
+<option value=”MN” id=”MN”>Minnesota</option>
+<option value=”MS” id=”MS”>Mississippi</option>
+<option value=”MO” id=”MO”>Missouri</option>
+<option value=”MT” id=”MT”>Montana</option>
+<option value=”NE” id=”NE”>Nebraska</option>
+<option value=”NV” id=”NV”>Nevada</option>
+<option value=”NH” id=”NH”>New Hampshire</option>
+<option value=”NJ” id=”NJ”>New Jersey</option>
+<option value=”NM” id=”NM”>New Mexico</option>
+<option value=”NY” id=”NY”>New York</option>
+<option value=”NC” id=”NC”>North Carolina</option>
+<option value=”ND” id=”ND”>North Dakota</option>
+<option value=”OH” id=”OH”>Ohio</option>
+<option value=”OK” id=”OK”>Oklahoma</option>
+<option value=”OR” id=”OR”>Oregon</option>
+<option value=”PA” id=”PA”>Pennsylvania</option>
+<option value=”RI” id=”RI”>Rhode Island</option>
+<option value=”SC” id=”SC”>South Carolina</option>
+<option value=”SD” id=”SD”>South Dakota</option>
+<option value=”TN” id=”TN”>Tennessee</option>
+<option value=”TX” id=”TX”>Texas</option>
+<option value=”UT” id=”UT”>Utah</option>
+<option value=”VT” id=”VT”>Vermont</option>
+<option value=”VA” id=”VA”>Virginia</option>
+<option value=”WA” id=”WA”>Washington</option>
+<option value=”WV” id=”WV”>West Virginia</option>
+<option value=”WI” id=”WI”>Wisconsin</option>
+<option value=”WY” id=”WY”>Wyoming</option>
+</select>
+    
+   <h3> What would you like to order </h3>
+     <label for ="Wings"> Wings</label>
+      <input id="wings" name="menu" type="checkbox" value="Wings"> 
+     <label for ="Burgers">Burgers</label>
+      <input id="burgers" name="menu" type="checkbox" value="Burgers"> 
+     <label for ="Pizza">Pizza</label>
+      <input id="Pizza" name="menu" type="checkbox" value="Pizza">
+   <h3>Payment Information</h3>
+    <input type="card" placeholder='Card Number' id="cnumber" name="cnumber">
+    <input type="expiration" placeholder='Expiration Date'>
+    <input type="CVV" placeholder='CVV'>
+    <input type="zip" placeholder='Zip Code'>
+   <div>
+    <input type='Submit' placeholder='Submit' src="www.deadlink.com">
+   </div>
+  </form>
+  </div>
+<!-- Add your restaurant order form above -->
+</main>
+
+<aside role='complementary'>
+  <h2>Sidebar</h2>
+  <p>Complementary content, additional information and such...</p>
+</aside>
+
+<footer role='contentinfo'>
+  <h2>Footer</h2>
+  <p>Information about the document, it's author and such...</p>
+</footer>
+
+</body>
+</html>
